@@ -116,6 +116,46 @@ h2 {
   align-items: flex-end;
 }
 
+/* Image Gallery */
+
+.image-gallery {
+  display: flex;
+  flex-direction: column;
+  padding: 180px 10% 140px 10%;
+  gap: 20px;
+  align-items: center;
+}
+
+.gallery-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.pricing {
+  /* width: 600px; */
+  display: flex;
+  /* flex-direction: column; */
+  /* gap: 50px;   */
+  justify-content: space-around;
+  padding: 0 10%;
+  padding-bottom: 140px;
+  align-items: center;
+}
+
+.about-price {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.pricing-button {
+  display: flex;
+  flex-grow: 1;
+  justify-content: space-around;
+}
+
 /* Footer */
 
 .footer {
