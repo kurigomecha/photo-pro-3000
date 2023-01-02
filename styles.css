@@ -133,10 +133,7 @@ h2 {
 }
 
 .pricing {
-  /* width: 600px; */
   display: flex;
-  /* flex-direction: column; */
-  /* gap: 50px;   */
   justify-content: space-around;
   padding: 0 10%;
   padding-bottom: 140px;
