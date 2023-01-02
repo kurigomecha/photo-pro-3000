@@ -10,6 +10,7 @@ body {
   font-size: 20px;
   background-color: #F5F5F5;
   color: #302C2C;
+  font-weight: 400;
 }
 
 * {
@@ -17,8 +18,8 @@ body {
   padding: 0;
 }
 
-a{
-  /* color: white; */
+a {
+  color: #302C2C;
   text-decoration: none;
 }
 
@@ -42,15 +43,16 @@ a{
 
 .header {
   align-items: center;
-  background-color: lightgray;
+  /* background-color: lightgray; */
   display: flex;
   height: 150px;
   justify-content: space-between;
   padding: 0 10%;
 }
 
-.title p:first-child {
+.title h1 {
   font-size: 40px;
+  font-weight: 400;
 }
 
 .menu-list {
@@ -74,12 +76,44 @@ a{
   width: 600px;
   display: flex;
   flex-direction: column;
-  gap: 60px;
+  gap: 50px;
 }
 
-.about p:first-child {
+.image-links {
+  display: flex;
+  flex-direction: column;
+  padding-top: 180px;
+  padding-bottom: 140px;
+  gap: 30px;
+}
+
+h2 {
   font-weight: 600;
   font-size: 32px;
+}
+
+.image-with-button {
+  display: flex;
+  padding: 0 10%;
+  justify-content: space-between;
+  gap: 110px;
+  align-items: center;
+}
+
+.image-with-button div {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  /* gap: 60px; */
+}
+
+.see-more button,
+.see-more-right-side button {
+  margin-top: 40px;
+}
+
+.see-more-right-side {
+  align-items: flex-end;
 }
 
 /* Footer */
@@ -92,4 +126,14 @@ a{
   justify-content: space-between;
   padding: 15px 10%;
   align-items: center;
+  height: 270px;
+}
+
+.bold-footer {
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.sns {
+  text-align: center;
 }
