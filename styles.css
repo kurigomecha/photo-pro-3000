@@ -1,3 +1,5 @@
+/* General */
+
 :root { font-family: 'Inter', sans-serif; }
 @supports (font-variation-settings: normal) {
   :root { font-family: 'Inter var', sans-serif; }
@@ -6,6 +8,8 @@
 body {
   min-height: 100vh;
   font-size: 20px;
+  background-color: #F5F5F5;
+  color: #302C2C;
 }
 
 * {
@@ -17,6 +21,24 @@ a{
   /* color: white; */
   text-decoration: none;
 }
+
+.button {
+  background-color: #302C2C;
+  border-radius: 30px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  width: fit-content;
+  padding: 20px 25px;
+  border: 0;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.button:active {
+  background: #1a1818;
+}
+
+/* Header */
 
 .header {
   align-items: center;
@@ -38,11 +60,36 @@ a{
   gap: 50px;
 }
 
+/* Main */
+
+.description {
+  display: flex;
+  padding: 0 10%;
+  justify-content: space-between;
+  gap: 110px;
+  align-items: center;
+}
+
+.about {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.about p:first-child {
+  font-weight: 600;
+  font-size: 32px;
+}
+
+/* Footer */
+
 .footer {
-  background-color: gray;
-  color: white;
+  background-color: #302C2C;
+  color: #F5F5F5;
   display: flex;
   height: 150px;
   justify-content: space-between;
   padding: 15px 10%;
+  align-items: center;
 }
