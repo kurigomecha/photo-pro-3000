@@ -39,6 +39,10 @@ a {
   background: #1a1818;
 }
 
+.all-caps {
+  text-transform: uppercase;
+}
+
 /* Header */
 
 .header {
@@ -132,6 +136,8 @@ h2 {
   gap: 16px;
 }
 
+/* Pricing */
+
 .pricing {
   display: flex;
   justify-content: space-around;
@@ -147,10 +153,46 @@ h2 {
   gap: 50px;
 }
 
-.pricing-button {
+.pricing {
+  display: flex;
+  justify-content: space-around;
+  padding: 0 10%;
+  padding-bottom: 140px;
+  align-items: center;
+}
+
+.about-price-pets {
+  display: flex;
+  gap: 70px;
+  flex-direction: column;
+}
+
+.pricing-pets {
   display: flex;
   flex-grow: 1;
   justify-content: space-around;
+  flex-direction: column;
+  gap: 70px;
+  align-items: center;
+  padding: 0 10%;
+  padding-bottom: 140px;
+}
+
+.pricing-pets h2 {
+  align-self: flex-start;
+}
+
+.price-pets-block {
+  display: flex;
+  gap: 70px;
+}
+
+.price-pets-block div {
+  width: 500px;
+}
+
+.price-pets-block div p:first-child {
+  font-weight: 500;
 }
 
 /* Footer */
